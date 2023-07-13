@@ -1,14 +1,10 @@
-import React from 'react'
+import * as React from 'react';
 
-function SkillSection() {
+
+export default function SpacingGrid() {
   return (
-    <>
     <section className='SkillSec'>
-    <span className='heading-text'>MY SKILL SET</span>
-    </section>
     
-    </>
-  )
+    </section>
+  );
 }
-
-export default SkillSection
