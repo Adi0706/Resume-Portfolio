@@ -122,9 +122,64 @@ p {
 }
 
 .SkillSec {
- border: solid;
+ /* border: solid;
+ border-color: black; */
+ width: 100%;
+ height: auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 200px;
+ background-color: rgb(240, 235, 224);
+ box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.355);
+}
+.SkillSec div{
+  background-color: rgb(255, 255, 255);
+  /* border: solid;
+  border-color: black; */
+   margin: 50px; 
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 10px rgba(79, 75, 75, 0.355);
+}
+.heading-text{
+  text-align: center;
+}
+.skill-list .coding{
+  list-style: none;
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+  margin-left:150px;
+}
+.skill-list .soft{
+  list-style: none;
+  text-align: left;
+  padding: 2px;
+  margin: 10px;
+  margin-left:120px;
+  text-align: justify;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  height: 100px;
+  font-weight: bold;
+}
+h2{
+  color:rgb(111, 109, 109);
+ 
+}
+.AchSec{
+  border: solid;
  border-color: black;
  width: 100%;
- height: 400px;
+ height: auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 200px;
+ background-color: rgb(255, 255, 255);
+ box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.355);
 }
-
