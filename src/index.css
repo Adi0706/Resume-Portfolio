@@ -186,8 +186,8 @@ a{
   color: black;
 }
 .ResSec{
-  border: solid;
-  border-color: black;
+  /* border: solid;
+  border-color: black; */
   width: 100%;
  height: auto;
  display: flex;
@@ -196,5 +196,19 @@ a{
  padding: 40px;
  min-height: 200px;
  background-color: rgb(255, 255, 255);
+
+}
+.ProjSec{
+  width: 100%;
+ height: auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 40px;
+ min-height: 200px;
+ background-color: rgb(204, 151, 151);
+ font-family: 'poppins',sans-serif;
+ font-size:20px;
+
 
 }
