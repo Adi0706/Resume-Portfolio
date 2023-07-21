@@ -83,7 +83,7 @@ video {
   padding: 5px;
 }
 
- .icon a {
+.icon a {
   color: white;
 }
 
@@ -122,44 +122,44 @@ p {
 }
 
 .SkillSec {
- /* border: solid;
+  /* border: solid;
  border-color: black; */
- width: 100%;
- height: auto;
- display: flex;
- justify-content: center;
- align-items: center;
- min-height: 200px;
- background-color: rgb(240, 235, 224);
- box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.355);
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  background-color: rgb(240, 235, 224);
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.355);
 }
-.SkillSec div{
+.SkillSec div {
   background-color: rgb(255, 255, 255);
   /* border: solid;
   border-color: black; */
-   margin: 50px; 
+  margin: 50px;
   width: 500px;
   height: 500px;
   text-align: center;
   border-radius: 20px;
   box-shadow: 0px 0px 10px 10px rgba(79, 75, 75, 0.355);
 }
-.heading-text{
+.heading-text {
   text-align: center;
 }
-.skill-list .coding{
+.skill-list .coding {
   list-style: none;
   text-align: left;
   padding: 10px;
   margin: 10px;
-  margin-left:150px;
+  margin-left: 150px;
 }
-.skill-list .soft{
+.skill-list .soft {
   list-style: none;
   text-align: left;
   padding: 2px;
   margin: 10px;
-  margin-left:120px;
+  margin-left: 120px;
   text-align: justify;
   display: flex;
   justify-self: center;
@@ -167,48 +167,134 @@ p {
   height: 100px;
   font-weight: bold;
 }
-h2{
-  color:rgb(111, 109, 109);
- 
+h2 {
+  color: rgb(111, 109, 109);
 }
-.AchSec{
- width: 100%;
- height: auto;
- display: flex;
- justify-content: center;
- align-items: center;
- padding: 40px;
- min-height: 200px;
- background-color: rgb(255, 255, 255);
+.AchSec {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  min-height: 200px;
+  background-color: rgb(255, 255, 255);
 }
-a{
+a {
   text-decoration: none;
   color: black;
 }
-.ResSec{
-  /* border: solid;
-  border-color: black; */
+
+.ProjSec {
   width: 100%;
- height: auto;
- display: flex;
- justify-content: center;
- align-items: center;
- padding: 40px;
- min-height: 200px;
- background-color: rgb(255, 255, 255);
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  min-height: 200px;
+  background-color: rgb(204, 151, 151);
+  font-family: "poppins", sans-serif;
+  font-size: 20px;
+}
+.ResSec {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 200px;
+  background-color: rgb(255, 255, 255);
+}
+.container {
+  border: solid;
+  border-color: black;
+  background-color: white;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.popup-container {
+  background-color: white;
+  padding: 16px;
+  max-width: 80%;
+  max-height: 80%;
+  overflow: auto;
+}
+
+.close-button {
+  cursor: pointer;
+  float: right;
+  padding: 8px;
+}
+
+.popup-container img {
+  width: 100%;
+  height: auto;
+}
+.ResSec h1{
+ color: #e06363;
 
 }
-.ProjSec{
+.FootSec {
+  position: relative; 
+  border: solid;
+  border-color: black;
   width: 100%;
- height: auto;
- display: flex;
- justify-content: center;
- align-items: center;
- padding: 40px;
- min-height: 200px;
- background-color: rgb(204, 151, 151);
- font-family: 'poppins',sans-serif;
- font-size:20px;
-
-
+  height: 350px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 20px;
+  min-height: 200px;
+  background-color: rgb(255, 255, 255);
+  background-image: url('./Images/footer.jpg');
+  background-size: cover; 
+  background-position: center 55%; 
 }
+
+.FootSec::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); 
+}
+
+.text{
+  color: rgb(255, 250, 250);
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #e06363;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.scroll-to-top-button:hover {
+  background-color: #d31a1a;
+}
+

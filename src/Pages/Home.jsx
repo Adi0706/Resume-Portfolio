@@ -6,6 +6,7 @@ import SkillSection from '../Components/SkillSection'
 import Achievements from '../Components/Achievements'
 import ResumeDownload from '../Components/ResumeDownload'
 import ProjectSection from '../Components/ProjectSection'
+import Footer from '../Components/Footer'
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
         <Achievements />
         <ProjectSection />
         <ResumeDownload />
+        <Footer />
     </div>
   )
 }
