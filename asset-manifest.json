@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Resume-Portfolio/static/css/main.009e5307.css",
+    "main.js": "/Resume-Portfolio/static/js/main.53a0fb83.js",
+    "static/js/787.cda612ba.chunk.js": "/Resume-Portfolio/static/js/787.cda612ba.chunk.js",
+    "static/media/background.mp4": "/Resume-Portfolio/static/media/background.a2703484bb9eee7d0c2e.mp4",
+    "static/media/repsnsets.mp4": "/Resume-Portfolio/static/media/repsnsets.75520f146a502a4956d2.mp4",
+    "static/media/notetaker.mp4": "/Resume-Portfolio/static/media/notetaker.53c2b9fcca138d92f6b3.mp4",
+    "static/media/hackerrank.png": "/Resume-Portfolio/static/media/hackerrank.b0d0c51588bce5a8903b.png",
+    "static/media/phtoport.mp4": "/Resume-Portfolio/static/media/phtoport.ea5a48ca39b200523d4e.mp4",
+    "static/media/aboutimg.png": "/Resume-Portfolio/static/media/aboutimg.ea13764417d2afe5fbd6.png",
+    "static/media/photoport.png": "/Resume-Portfolio/static/media/photoport.e9068b9be8652224a735.png",
+    "static/media/desginres.png": "/Resume-Portfolio/static/media/desginres.667441cb014153898d1a.png",
+    "static/media/res.png": "/Resume-Portfolio/static/media/res.671d6e65b8527a803d1a.png",
+    "static/media/fullres.png": "/Resume-Portfolio/static/media/fullres.be4afad6e3283160a6e6.png",
+    "static/media/fullresdes.png": "/Resume-Portfolio/static/media/fullresdes.fcd9b5da812523791a8d.png",
+    "static/media/udemy.png": "/Resume-Portfolio/static/media/udemy.0ab15c1cc2ee8bf89a1e.png",
+    "static/media/onlinewatch.png": "/Resume-Portfolio/static/media/onlinewatch.57925cec26fb76c378d3.png",
+    "static/media/jpcertificate.png": "/Resume-Portfolio/static/media/jpcertificate.b730d53ab76913a2ae86.png",
+    "static/media/footer.jpg": "/Resume-Portfolio/static/media/footer.8c9b6e181bb75aad13b0.jpg",
+    "index.html": "/Resume-Portfolio/index.html",
+    "main.009e5307.css.map": "/Resume-Portfolio/static/css/main.009e5307.css.map",
+    "main.53a0fb83.js.map": "/Resume-Portfolio/static/js/main.53a0fb83.js.map",
+    "787.cda612ba.chunk.js.map": "/Resume-Portfolio/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.009e5307.css",
+    "static/js/main.53a0fb83.js"
+  ]
+}
