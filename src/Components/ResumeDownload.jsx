@@ -62,7 +62,7 @@ export default function MultiActionAreaCard() {
             </span>
             <div>
               <span>
-                <a href='https://drive.google.com/file/d/190dZcx9pnW6TZk0X82ECvbpV_x-vi605/view?usp=sharing'>
+                <a href='https://drive.google.com/file/d/1tVIU0-KkTrQwIXEsLiQwMHXgqiSdXG2n/view?usp=sharing'>
                   <b>RESUME LINK</b>
                 </a>
               </span>
@@ -103,7 +103,7 @@ export default function MultiActionAreaCard() {
                 RESUME - 2
               </Typography>
               <Typography variant="body2" color="text.secondary" sx={{ color: 'white' }}>
-                Basic Resume Template.
+                Basic Resume Template (UPDATED)
               </Typography>
             </CardContent>
           </CardActionArea>

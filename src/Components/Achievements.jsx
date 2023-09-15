@@ -30,7 +30,7 @@ export default function MediaCard() {
             <CardActions>
               <Button size="small" color="primary">
                 <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_J.P.%20Morgan_5wFf8HWBAcKkKRdjF_1688984313114_completion_certificate.pdf">
-                  Learn More
+                  VISIT LINK
                 </a>
               </Button>
             </CardActions>
@@ -48,7 +48,7 @@ export default function MediaCard() {
             </CardContent>
             <CardActions>
               <Button size="small" color="primary">
-                <a href="https://www.hackerrank.com/certificates/6556fb22aa70">Learn More</a>
+                <a href="https://www.hackerrank.com/certificates/6556fb22aa70">VISIT LINK</a>
               </Button>
             </CardActions>
           </Card>
@@ -68,7 +68,7 @@ export default function MediaCard() {
             </CardContent>
             <CardActions>
               <Button size="small" color="primary">
-                <a href="https://www.udemy.com/certificate/UC-5d0afc2f-5e27-4363-9f5b-126f964e5790/">Learn More</a>
+                <a href="https://www.udemy.com/certificate/UC-5d0afc2f-5e27-4363-9f5b-126f964e5790/">VISIT LINK</a>
               </Button>
             </CardActions>
           </Card>
